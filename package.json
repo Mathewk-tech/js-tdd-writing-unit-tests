@@ -10,9 +10,11 @@
   "license": "See LICENSE.md file",
   "type": "module",
   "devDependencies": {
-    "@babel/preset-env": "^7.16.5",
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
     "@types/jest": "^27.0.3",
-    "jest": "^27.4.5"
+    "babel-jest": "^30.0.5",
+    "jest": "^27.5.1"
   },
   "jest": {
     "transform": {
